@@ -5,7 +5,7 @@
     /*position: fixed;*/
     /* background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%,#FFDFEF,100%); */
 
-@media Screen and (max-width: 479)
+@media Screen and (max-width: 479px)
 {
     .big, .middle{width: 100%;};
     .small{width: 50%};
