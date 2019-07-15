@@ -1,0 +1,62 @@
+.home>div{
+	position: absolute;
+	filter: grayscale(0.4);
+	background: url('./img/glass.png');
+}
+
+.home>section>p{
+	position: absolute;
+	top: 40%; left: 20%;
+}
+
+.home>section>h1{
+	position: absolute;
+	top: 34%; left: 20%;
+	font-size: 500%;
+}
+
+.mini_catch_phrase{
+	--offset_by_side: -18%;
+	--font_size: 120%;
+}
+
+.mini_catch_phrase_l{
+	position: absolute;
+	top: 50%; left: var(--offset_by_side);
+	font-size: var(--font_size);
+	transform: rotateZ(-90deg);
+}
+
+.mini_catch_phrase_r{
+	position: absolute;
+	top: 50%; right: var(--offset_by_side);
+	font-size: var(--font_size);
+	transform: rotateZ(+90deg);
+}
+
+.catch_phrase{
+	position: absolute;
+	top: 79.3%; left: 47.0%;
+	font-size: 170%;
+}
+
+.home>section>section>h2{
+	position: absolute;
+	top: 84%; left: 47.5%;
+	font-size: 100%;
+	font-weight: 100;
+}
+
+.scrollPrompt{
+	position: absolute;
+	background: url('./img/UnderArrow.png');
+	background-size: cover;
+	top: 93%; left: 48.68%;
+	width: 4%; height: 4vh;
+
+	animation-duration: 2s;
+	animation-name: flash;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}

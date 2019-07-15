@@ -1,0 +1,9 @@
+.special{
+	position: relative;
+	width: 100%; height: 50vh;
+	top: 337.5%; left: 0%;
+}
+
+.special>section>a{
+	font-size: 300%;
+}
