@@ -1,15 +1,15 @@
-.home>div{
+.home_bg{
 	position: absolute;
 	filter: grayscale(0.4);
 	background: url('./img/glass.png');
 }
 
-.home>section>p{
+.home_catch_phrase_text_01{
 	position: absolute;
 	top: 40%; left: 20%;
 }
 
-.home>section>h1{
+.home_catch_phrase_text_02{
 	position: absolute;
 	top: 34%; left: 20%;
 	font-size: 500%;

@@ -4,10 +4,10 @@
 	top: 400%; left: 0%;
 }
 
-.profile>section>section>dt{
+.profile_title{
 	font-size: 300%;
 }
 
-.profile>section>section>dd{
+.profile_description{
 	font-size: 200%;
 }

@@ -9,8 +9,7 @@
 	top: 3%;
 }
 
-.games_lethal_blast>section>div, 
-.games_summoners_aster>section>div{
+.games_title_underline{
 	right: 100%;
 }
 
@@ -23,22 +22,22 @@
 	padding: 2%;
 }
 
-.games_lethal_blast, .games_summoners_aster{
+.games_component:nth-of-type(2n){
 	flex-direction: row-reverse;
 }
 
-.games>section>section>section>div{
+.games_title_underline, .games_title_underline_right{
 	position: relative;
 	width: 200%; height: 0.2vh;
 	background-color: azure;
 }
 
-.games>section>section>section>dt{
+.games_title{
 	position: relative;
 	font-size: 500%;
 }
 
-.games>section>section>section>dd{
+.games_description{
 	position: relative;
 	font-size: 200%;
 }
@@ -49,22 +48,22 @@
 	outline: 2px solid azure;
 }
 
-.games_tetri_miner>div{
+.games_tetri_miner_img{
 	background: url('./img/TetriMiner.png');
 	background-size: cover;
 }
 
-.games_lethal_blast>div{
+.games_lethal_blast_img{
 	background: url('./img/Lethal_Blast.png');
 	background-size: cover;
 }
 
-.games_star_light_line>div{
+.games_star_light_line_img{
 	background: url('./img/StarLight_Line.png');
 	background-size: cover;
 }
 
-.games_summoners_aster>div{
+.games_summoners_aster_img{
 	background: url('./img/Summoners-Aster.png');
 	background-size: cover;
 }
