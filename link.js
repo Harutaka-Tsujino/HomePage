@@ -1,10 +1,10 @@
 let headerDatas = 
 [
 	{name: "header_home", scrollPosY: 0},
-	{name: "header_games", scrollPosY: 872},
-	{name: "header_profile", scrollPosY: 4600},
-	{name: "header_contact", scrollPosY: 5800},
-	{name: "header_special", scrollPosY: 5800}
+	{name: "header_games", scrollPosY: 755},
+	{name: "header_profile", scrollPosY: 3650},
+	{name: "header_contact", scrollPosY: 4240},
+	{name: "header_special", scrollPosY: 5000}
 ];
 
 window.onload = ()=>{
