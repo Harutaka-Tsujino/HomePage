@@ -1,0 +1,112 @@
+.web_page_description{
+	z-index: 100;
+	font-size: 300%;
+	color: azure;
+}
+
+html, body{
+	width: 100%; height: 100vh;
+	margin: 0 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.background{
+	width: 100%; height: 100vh;
+	top: 0%; left: 0%;
+	background-size: cover;
+}
+
+.web_page_bg{
+	position: fixed;
+	filter: grayscale(0.3);
+	background: url('./img/blackBoard.jpeg');
+	background-position: bottom 25% left 0;
+	background-size: cover;
+	z-index: -1;
+}
+
+.box{
+	position: fixed;
+	top: 0; left: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	/* background-color: rgba(200,200,200,0.2); */
+	animation-duration: 1.5s;
+
+	animation-name: rotation00;
+	animation-direction: normal;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.meter{
+	width: 4vw;
+	height: 0.5vh;
+	position: fixed;
+	margin: auto 0;
+	left: 22%; top: 49%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 255, 157, 0.219);
+}
+
+@keyframes rotation00{
+	0% {
+		transform: rotate(0deg);
+	}
+	
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotation01{
+	0% {
+		transform: rotate(72deg);
+	}
+	
+	100% {
+		transform: rotate(432deg);
+	}
+}
+
+@keyframes rotation02{
+	0% {
+		transform: rotate(144deg);
+	}
+	
+	100% {
+		transform: rotate(504deg);
+	}
+}
+
+@keyframes rotation03{
+	0% {
+		transform: rotate(216deg);
+	}
+	
+	100% {
+		transform: rotate(576deg);
+	}
+}
+
+@keyframes rotation04{
+	0% {
+		transform: rotate(288deg);
+	}
+	
+	100% {
+		transform: rotate(648deg);
+	}
+}
+
+@keyframes rotation05{
+	0% {
+		transform: rotate(360deg);
+	}
+	
+	100% {
+		transform: rotate(720deg);
+	}
+}
